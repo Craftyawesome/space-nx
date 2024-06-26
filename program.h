@@ -38,9 +38,9 @@ struct Pixel {
 	int b;
 };
 
-static unsigned char title[100][200];
-static unsigned char rotated_ship[36][36];
-static unsigned char orig_ship[36][36];
+extern unsigned char title[100][200];
+extern unsigned char rotated_ship[36][36];
+extern unsigned char orig_ship[36][36];
 
 //Struct for global variables for pong
 struct SpaceGlobals{
